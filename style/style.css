@@ -40,6 +40,9 @@ padding: 5px;
 img {
 
     background-color: gray;
+    text-align: center;
+    line-height: 180px;
+
 
 }
 
@@ -48,5 +51,73 @@ ul {
 display: flex;
 list-style-type: none;
 gap: 15px;
+
+}
+
+.info{
+
+text-align: center;
+padding-bottom: 50px;
+
+    
+}
+
+.foto {
+
+ border-color: #3882f6;    
+    border: 5px;
+    border-style:groove;
+    margin-bottom: 15px;
+
+}
+
+.title{
+
+    font-weight: 900px;
+    margin-top: 32px;
+
+}
+
+.boxes{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+}
+
+.cita {
+
+background-color: #E5E7EB;
+font-style: italic;
+font-size:16px ;
+font: #1F2937;
+text-align: center;
+
+}
+
+.contenido {
+
+padding: 50px;
+
+}
+
+.cita > .autor {
+
+display: flex;
+justify-content:end;
+padding-right: 50px;
+padding-bottom: 50px;
+font-weight: bold;
+font-style: normal;
+
+
+}
+
+.cuadros > img{
+
+background-color: transparent;
+border-color: #3882f6;
+border-radius: 5px;
 
 }
